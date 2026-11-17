@@ -2,16 +2,13 @@
 
 Kurumsal Windows istemci ve sunucu ortamları için test edilmiş, performans, güvenlik ve kullanıcı deneyimi odaklı Group Policy (GPO) uygulama rehberleri.
 
----
-
 ## İçindekiler
 
-| No | Politika / Doküman Adı | Kapsam | Dosya |
-| :--- | :--- | :--- | :--- |
-| **01** | **Görsel Performans & UX Standardizasyonu** | Kullanıcı (`HKCU`) | [01-Visual-Performance-UX-Standard.md](./01-Visual-Performance-UX-Standard.md) |
-| **02** | **Kilit Ekranı, Görev Çubuğu ve Widget Yapılandırması** | Bilgisayar (`HKLM`) | [02-Lock-Screen-and-Taskbar-Policy.md](./02-Lock-Screen-and-Taskbar-Policy.md) |
-
----
+| No | Politika / Doküman Adı | Kapsam | Dosya | 
+| ----- | ----- | ----- | ----- | 
+| **01** | **Görsel Performans & UX Standardizasyonu** | Kullanıcı (`HKCU`) | [01-Visual-Performance-UX-Standard.md](./01-Visual-Performance-UX-Standard.md) | 
+| **02** | **Kilit Ekranı, Görev Çubuğu ve Widget Yapılandırması** | Bilgisayar (`HKLM`) | [02-Lock-Screen-and-Taskbar-Policy.md](./02-Lock-Screen-and-Taskbar-Policy.md) | 
+| **03** | **Hızlı Başlatma (Fast Startup) Devre Dışı Bırakma** | Bilgisayar (`HKLM`) | [03-Disable-Fast-Startup-Policy.md](./03-Disable-Fast-Startup-Policy.md) | 
 
 ## Genel Uygulama Notları
 
