@@ -9,9 +9,10 @@ Kurumsal Windows istemci ve sunucu ortamları için test edilmiş, performans, g
 | **01** | **Görsel Performans & UX Standardizasyonu** | Kullanıcı (`HKCU`) | [01-Visual-Performance-UX-Standard.md](./01-Visual-Performance-UX-Standard.md) | 
 | **02** | **Kilit Ekranı, Görev Çubuğu ve Widget Yapılandırması** | Bilgisayar (`HKLM`) | [02-Lock-Screen-and-Taskbar-Policy.md](./02-Lock-Screen-and-Taskbar-Policy.md) | 
 | **03** | **Hızlı Başlatma (Fast Startup) Devre Dışı Bırakma** | Bilgisayar (`HKLM`) | [03-Disable-Fast-Startup-Policy.md](./03-Disable-Fast-Startup-Policy.md) | 
+| **04** | **Windows Server Güncelleştirme ve Çalışma Saatleri (Active Hours)** | Bilgisayar (`HKLM`) | [04-Windows-Server-Update-Active-Hours-Policy.md](./04-Windows-Server-Update-Active-Hours-Policy.md) | 
 
 ## Genel Uygulama Notları
 
-* Tüm politikalar üretim ortamına (Production) alınmadan önce pilot bir Organizasyon Birimi (OU) üzerinde test edilmelidir.
-* Özel ADMX/ADML şablonu gerektiren politikalarda dosyaların SYSVOL `PolicyDefinitions` merkez deposuna aktarıldığından emin olunmalıdır.
-* Değişikliklerin istemcilere anında yansıması için `gpupdate /force` komutu kullanılabilir.
+- Tüm politikalar üretim ortamına (Production) alınmadan önce pilot bir Organizasyon Birimi (OU) üzerinde test edilmelidir.
+- Özel ADMX/ADML şablonu gerektiren politikalarda dosyaların SYSVOL `PolicyDefinitions` merkez deposuna aktarıldığından emin olunmalıdır.
+- Değişikliklerin istemcilere anında yansıması için `gpupdate /force` komutu kullanılabilir.
